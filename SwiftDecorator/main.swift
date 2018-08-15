@@ -10,14 +10,14 @@
 
 var macBookRegular: MacBook = MacBookRegulr()
 
-print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.drscription)")
+print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
 macBookRegular = ProcessorUpgrade(macBookRegular)
-print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.drscription)")
+print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
 macBookRegular = SSDUPgrade(macBookRegular)
-print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.drscription)")
+print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
 macBookRegular = TouchBarUpgrade(macBookRegular)
-print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.drscription)")
+print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 

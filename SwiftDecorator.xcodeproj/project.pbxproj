@@ -10,6 +10,7 @@
 		185FC2392123D510007E0FCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FC2382123D510007E0FCB /* main.swift */; };
 		3C8932E3AA1EDCE5E7974EC7 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8934E68DBF4B1E4B967491 /* MacBook.swift */; };
 		3C8938A33D0B5AAE74CB2F97 /* MacBookRegulr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8931B21837804CC6E6B82B /* MacBookRegulr.swift */; };
+		3C893A2CA8924222B2B7A3FA /* MacBookDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C893FC9DC5D078776EA8257 /* MacBookDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		185FC2382123D510007E0FCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C8931B21837804CC6E6B82B /* MacBookRegulr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBookRegulr.swift; sourceTree = "<group>"; };
 		3C8934E68DBF4B1E4B967491 /* MacBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
+		3C893FC9DC5D078776EA8257 /* MacBookDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBookDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				185FC2382123D510007E0FCB /* main.swift */,
 				3C8934E68DBF4B1E4B967491 /* MacBook.swift */,
 				3C8931B21837804CC6E6B82B /* MacBookRegulr.swift */,
+				3C893FC9DC5D078776EA8257 /* MacBookDecorator.swift */,
 			);
 			path = SwiftDecorator;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				185FC2392123D510007E0FCB /* main.swift in Sources */,
 				3C8932E3AA1EDCE5E7974EC7 /* MacBook.swift in Sources */,
 				3C8938A33D0B5AAE74CB2F97 /* MacBookRegulr.swift in Sources */,
+				3C893A2CA8924222B2B7A3FA /* MacBookDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
