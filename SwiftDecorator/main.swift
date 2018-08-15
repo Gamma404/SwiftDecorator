@@ -21,3 +21,17 @@ print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)
 macBookRegular = TouchBarUpgrade(macbook: macBookRegular)
 print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
+//Step 6: Add Requirement
+
+var MacBookAir: MacBook = MacBookAir()
+
+print("Cost: \(MacBookAir.cost) , Description: \(macBookAir.description)")
+
+macBookAir = ProcessorUpgrade(macbook: macBookAir)
+print("Cost: \(macBookAir.cost) , Description: \(macBookAir.description)")
+
+macBookAir = SSDUPgrade(macbook: macBookAir)
+print("Cost: \(macBookAir.cost) , Description: \(macBookAir.description)")
+
+macBookAir = TouchBarUpgrade(macbook: macBookAir)
+print("Cost: \(macBookAir.cost) , Description: \(macBookAir.description)")
