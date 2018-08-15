@@ -8,16 +8,16 @@
 
 //Step 1: Requirement
 
-var macBookRegular: MacBook = MacBookRegulr()
+var macBookRegular: MacBook = MacBookRegular()
 
 print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
-macBookRegular = ProcessorUpgrade(macBookRegular)
+macBookRegular = ProcessorUpgrade(macbook: macBookRegular)
 print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
-macBookRegular = SSDUPgrade(macBookRegular)
+macBookRegular = SSDUPgrade(macbook: macBookRegular)
 print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 
-macBookRegular = TouchBarUpgrade(macBookRegular)
+macBookRegular = TouchBarUpgrade(macbook: macBookRegular)
 print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)")
 

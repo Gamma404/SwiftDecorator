@@ -5,7 +5,7 @@
 
 //Step 3. Add concrete component
 
-class MacBookRegulr: MacBook {
+class MacBookRegular: MacBook {
     private(set) var cost: Double = 1099
     private(set) var description: String = "MacBook"
 }

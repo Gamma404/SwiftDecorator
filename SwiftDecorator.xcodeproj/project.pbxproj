@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		185FC2392123D510007E0FCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FC2382123D510007E0FCB /* main.swift */; };
 		3C8932E3AA1EDCE5E7974EC7 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8934E68DBF4B1E4B967491 /* MacBook.swift */; };
-		3C8938A33D0B5AAE74CB2F97 /* MacBookRegulr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8931B21837804CC6E6B82B /* MacBookRegulr.swift */; };
+		3C8938A33D0B5AAE74CB2F97 /* MacBookRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8931B21837804CC6E6B82B /* MacBookRegular.swift */; };
+		3C8939301AFA01DC60651C85 /* TouchBarUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C893B215DB500B3B0B4153B /* TouchBarUpgrade.swift */; };
 		3C893A2CA8924222B2B7A3FA /* MacBookDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C893FC9DC5D078776EA8257 /* MacBookDecorator.swift */; };
+		3C893BA948F6D943885AF3F3 /* SSDUPgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C893DD09AA9412DE21E50AC /* SSDUPgrade.swift */; };
+		3C893F72F7BB7A1A0BDE8B46 /* ProcessorUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8935ADDAEF35111FADDCA4 /* ProcessorUpgrade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +31,11 @@
 /* Begin PBXFileReference section */
 		185FC2352123D510007E0FCB /* SwiftDecorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDecorator; sourceTree = BUILT_PRODUCTS_DIR; };
 		185FC2382123D510007E0FCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3C8931B21837804CC6E6B82B /* MacBookRegulr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBookRegulr.swift; sourceTree = "<group>"; };
+		3C8931B21837804CC6E6B82B /* MacBookRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBookRegular.swift; sourceTree = "<group>"; };
 		3C8934E68DBF4B1E4B967491 /* MacBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
+		3C8935ADDAEF35111FADDCA4 /* ProcessorUpgrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessorUpgrade.swift; sourceTree = "<group>"; };
+		3C893B215DB500B3B0B4153B /* TouchBarUpgrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchBarUpgrade.swift; sourceTree = "<group>"; };
+		3C893DD09AA9412DE21E50AC /* SSDUPgrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDUPgrade.swift; sourceTree = "<group>"; };
 		3C893FC9DC5D078776EA8257 /* MacBookDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacBookDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,8 +71,11 @@
 			children = (
 				185FC2382123D510007E0FCB /* main.swift */,
 				3C8934E68DBF4B1E4B967491 /* MacBook.swift */,
-				3C8931B21837804CC6E6B82B /* MacBookRegulr.swift */,
+				3C8931B21837804CC6E6B82B /* MacBookRegular.swift */,
 				3C893FC9DC5D078776EA8257 /* MacBookDecorator.swift */,
+				3C8935ADDAEF35111FADDCA4 /* ProcessorUpgrade.swift */,
+				3C893DD09AA9412DE21E50AC /* SSDUPgrade.swift */,
+				3C893B215DB500B3B0B4153B /* TouchBarUpgrade.swift */,
 			);
 			path = SwiftDecorator;
 			sourceTree = "<group>";
@@ -130,8 +139,11 @@
 			files = (
 				185FC2392123D510007E0FCB /* main.swift in Sources */,
 				3C8932E3AA1EDCE5E7974EC7 /* MacBook.swift in Sources */,
-				3C8938A33D0B5AAE74CB2F97 /* MacBookRegulr.swift in Sources */,
+				3C8938A33D0B5AAE74CB2F97 /* MacBookRegular.swift in Sources */,
 				3C893A2CA8924222B2B7A3FA /* MacBookDecorator.swift in Sources */,
+				3C893F72F7BB7A1A0BDE8B46 /* ProcessorUpgrade.swift in Sources */,
+				3C893BA948F6D943885AF3F3 /* SSDUPgrade.swift in Sources */,
+				3C8939301AFA01DC60651C85 /* TouchBarUpgrade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
