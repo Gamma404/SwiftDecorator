@@ -23,9 +23,9 @@ print("Cost: \(macBookRegular.cost) , Description: \(macBookRegular.description)
 
 //Step 6: Add Requirement
 
-var MacBookAir: MacBook = MacBookAir()
+var macBookAir: MacBook = MacBookAir()
 
-print("Cost: \(MacBookAir.cost) , Description: \(macBookAir.description)")
+print("Cost: \(macBookAir.cost) , Description: \(macBookAir.description)")
 
 macBookAir = ProcessorUpgrade(macbook: macBookAir)
 print("Cost: \(macBookAir.cost) , Description: \(macBookAir.description)")
